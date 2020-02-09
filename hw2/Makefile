@@ -14,3 +14,8 @@ prob5: prob5.c
 
 prob6: prob6.c
 	$(CC) -o prob6 prob6.c
+	
+clean:
+	rm *.o temp
+
+

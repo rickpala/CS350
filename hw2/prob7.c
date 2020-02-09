@@ -14,5 +14,10 @@ int main() {
 }
 
 int saturating_add(int x, int y){
-
+    //Recall the graph that Sohn drew on the board with pos ovflw
+    //and neg ovflw. Look at the same diagram, but 3D, in the textbook.
+    //Test for x and y conditions that result in ovflw and redefine the sum 
+    //to be TMax for pos ovlfw and TMin for neg ovflw
+    
 }
+

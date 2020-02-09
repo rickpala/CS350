@@ -43,14 +43,14 @@ int main() {
     long signedMins[] = {CHAR_MIN, SHRT_MIN, INT_MIN, LONG_MIN};
     printVals(signedMins);
 
-  	//Print TMax Row
+ 	//Print TMax Row
     printf("TMax_w\t");
     long signedMaxs[] = {CHAR_MAX, SHRT_MAX, INT_MAX, LONG_MAX};
     printVals(signedMaxs);
 
   	//Print -1 Row
     printf("    -1\t");
-    long negOnes[] = {-1, -1, -1, -1};
+    long negOnes[] = {-1, -1, -1, -1}; 
     printVals(negOnes);
 
   	//Print 0 Row
